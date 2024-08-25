@@ -1,0 +1,506 @@
+body, h1, h2, h3, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    height: 50px; /* Adjust the height to your desired size */
+    width: auto;  /* Maintain the aspect ratio */
+}
+
+html, body {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.floating-image,
+.floating-image2,
+.floating-image3,
+.floating-image4,
+.floating-image5,
+.floating-image6,
+.floating-image7,
+.floating-image8 {
+    max-width: 100vw; /* Prevent the image from overflowing horizontally */
+    position: absolute;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.floating-image img,
+.floating-image2 img,
+.floating-image3 img,
+.floating-image4 img,
+.floating-image5 img,
+.floating-image6 img,
+.floating-image7 img,
+.floating-image8 img {
+    width: 100%;
+    height: auto;
+}
+.wave-section {
+    background-color: #357529; /* Match the green color of the section above */
+    position: relative;
+    z-index: 0;
+}
+
+.wave-section svg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.mission-section {
+    background-color: #36a450; /* Yellow color below the wave */
+    padding-top: 0; /* Remove any top padding to ensure smooth transition from the wave */
+}
+
+
+/* Image 1 */
+.floating-image {
+    position: absolute;
+    margin-top: 1300px;
+    right: 0;
+    transform: translateY(-50%);
+    width: 300px; /* Sesuaikan ukuran sesuai kebutuhan */
+    z-index: 2;
+    overflow: hidden;
+}
+
+.floating-image img {
+    width: 100%;
+    height: auto;
+}
+
+/* image 2 */
+.floating-image2 {
+    position: absolute;
+    margin-top: 1060px;
+    margin-left: -100px;
+    transform: translateY(-50%);
+    width: 400px; /* Sesuaikan ukuran sesuai kebutuhan */
+    z-index: 2;
+    overflow: hidden;
+}
+
+.floating-image2 img {
+    transform: rotate(60deg);
+    width: 100%;
+    height: auto;
+}
+
+/* image 3 */
+.floating-image3 {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: -120px;
+    transform: translateY(-50%);
+    width: 400px; /* Sesuaikan ukuran sesuai kebutuhan */
+    z-index: 3;
+    overflow: hidden;
+}
+
+.floating-image3 img {
+    transform: rotate(20deg);
+    width: 100%;
+    height: auto;
+}
+
+/* image 4 */
+.floating-image4 {
+    position: absolute;
+    margin-top: 500px;
+    margin-left: -120px;
+    transform: translateY(-50%);
+    width: 400px; /* Sesuaikan ukuran sesuai kebutuhan */
+    z-index: 2;
+    overflow: hidden;
+}
+
+.floating-image4 img {
+    transform: rotate(20deg);
+    width: 100%;
+    height: auto;
+}
+/* image 5 */
+.floating-image5 {
+    position: absolute;
+    margin-top: 500px;
+    right: 0;
+    margin-right: -120px;
+    transform: translateY(-50%);
+    width: 400px; /* Sesuaikan ukuran sesuai kebutuhan */
+    z-index: 3;
+    overflow: hidden;
+}
+
+.floating-image5 img {
+    transform: rotate(-20deg);
+    width: 100%;
+    height: auto;
+}
+/* image 6 */
+.floating-image6 {
+    position: absolute;
+    margin-top: 600px;
+    right: 0;
+    margin-right: -100px;
+    transform: translateY(-50%);
+    width: 400px; /* Sesuaikan ukuran sesuai kebutuhan */
+    z-index: 2;
+    overflow: hidden;
+}
+
+.floating-image6 img {
+    transform: rotate(-20deg);
+    width: 100%;
+    height: auto;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+/* image 7 */
+.floating-image7 {
+    position: absolute;
+    margin-top: 2000px;
+    right: 0;
+    margin-right: -100px;
+    transform: translateY(-50%);
+    width: 400px; /* Sesuaikan ukuran sesuai kebutuhan */
+    z-index: 2;
+    overflow: hidden;
+}
+
+.floating-image7 img {
+    transform: rotate(-40deg);
+    width: 100%;
+    height: auto;
+}
+/* image 7 */
+.floating-image8 {
+    position: absolute;
+    margin-top: 2200px;
+    margin-left: -180px;
+    transform: translateY(-50%);
+    width: 500px; /* Sesuaikan ukuran sesuai kebutuhan */
+    z-index: 2;
+    overflow: hidden;
+}
+
+.floating-image8 img {
+    transform: rotate(10deg);
+    width: 100%;
+    height: auto;
+}
+
+/* -------------------------------- */
+
+
+/* Ensure images do not cause overflow */
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Specific adjustments for the image that was causing the issue */
+.milestones img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Section containing the image */
+.milestones {
+    overflow: hidden;
+    position: relative;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #14320f; /* Dark Brown */
+    padding: 1rem;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.navbar .nav-link {
+    color: #f7f3e9; /* Light Beige */
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar .navbar-brand {
+    color: #cddc39; /* Muted Yellow */
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar .nav-link:hover {
+    color: #cddc39; /* Change link color on hover */
+}
+
+.navbar .navbar-brand:hover {
+    color: #f7f3e9; /* Change brand color on hover */
+}
+
+/* Hamburger Button (Navbar Toggler) */
+.navbar-light .navbar-toggler {
+    border-color: #f7f3e9; /* Light Beige for the border of the button */
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23f7f3e9' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); /* Light Beige for the lines */
+}
+
+/* On Scroll Navbar Effect */
+.navbar.scrolled {
+    background-color: #0f2510; /* Slightly darker on scroll */
+}
+
+/* Hero Section with Background Image, Blur, and Matching Color Overlay */
+.hero-section {
+    background: url('../images/hero-background.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+    color: #f7f3e9; /* Light Beige for Text */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(53, 117, 41, 0.5); /* Dark Green Overlay */
+    backdrop-filter: blur(10px); /* Blur effect */
+    z-index: 1;
+}
+.hero-section {
+    background: url('../images/hero-background.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+    color: #f7f3e9; /* Light Beige for Text */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(53, 117, 41, 0.5); /* Dark Green Overlay */
+    backdrop-filter: blur(10px); /* Blur effect */
+    z-index: 1;
+}
+
+.hero-section > div {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+/* SDG Image and Text */
+.sdg-corner {
+    position: absolute;
+    top: 10px; /* Stick to the top */
+    left: 10px; /* Stick to the left */
+    z-index: 3;
+    text-align: left;
+}
+
+.sdg-corner img {
+    width: 80px;
+    height: auto;
+    display: block;
+    margin: 0; /* Remove any margin */
+}
+
+.sdg-corner-text {
+    font-size: 0.9rem;
+    color: #f7f3e9; /* Light Beige for Text */
+    margin-top: 5px; /* Adds some space between the image and text */
+    text-align: left;
+}
+
+/* Milestones Section */
+.milestones {
+    background-color: #357529; /* Dark Green */
+    color: #f7f3e9; /* Light Beige */
+    padding: 50px 0;
+}
+
+.milestone-item img {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.milestone-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+.milestone-item p {
+    margin-bottom: 0;
+}
+
+/* Footer */
+footer {
+    background-color: #14320f; /* Dark Brown */
+    color: #f7f3e9; /* Light Beige */
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Button */
+.btn-primary {
+    background-color: #cddc39; /* Muted Yellow */
+    border-color: #cddc39;
+}
+
+.btn-primary:hover {
+    background-color: #f7f3e9; /* Light Beige */
+    border-color: #f7f3e9;
+    color: #38220f; /* Dark Brown */
+}
+
+/* AOS Animations */
+[data-aos] {
+    opacity: 0;
+    transition-property: opacity, transform;
+}
+
+[data-aos].aos-animate {
+    opacity: 1;
+}
+
+[data-aos][data-aos][data-aos-duration] {
+    transition-duration: 1200ms;
+}
+
+[data-aos][data-aos][data-aos-easing] {
+    transition-timing-function: ease-in-out;
+}
+
+/* Carousel Settings */
+div.carousel-nav-icon > svg {
+    height: 48px;
+    width: 48px;
+}
+
+html[data-bs-theme="dark"] div.carousel-nav-icon > svg {
+    fill: #FFF !important;
+}
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(33%);
+    }
+
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-33%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+    transform: translateX(0);
+}
+
+.carousel{
+    background-color: #357529;
+}
+
+/* Other CSS styles above */
+
+.wave-section {
+    background-color: #357529; /* Match the green color of the section above */
+    position: relative;
+    z-index: 0;
+}
+
+.wave-section svg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.mission-section {
+    background-color: #36a450; /* Yellow color below the wave */
+    padding-top: 0; /* Remove any top padding to ensure smooth transition from the wave */
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Ensures the logos are side by side */
+}
+
+footer ul li {
+    margin: 0 10px; /* Adds spacing between the logos */
+}
+
+footer ul li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff; /* Ensures the text color is white */
+}
+
+footer ul li img {
+    width: 50px; /* Adjust the size of the logos */
+    height: auto;
+    margin-right: 10px;
+}
+
+.center-card {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+
+
