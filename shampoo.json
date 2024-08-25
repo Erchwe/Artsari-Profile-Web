@@ -1,0 +1,17 @@
+[
+    {
+        "image": "images/produk/shampoo bayam merah.jfif",
+        "name": "Bayam Merah",
+        "description": "Penjelasan produk"
+    },
+    {
+        "image": "images/produk/shampoo citronella blend.jfif",
+        "name": "Citronella Blend",
+        "description": "Penjelasan produk"
+    },
+    {
+        "image": "images/produk/shampoo lidah buaya.jfif",
+        "name": "Lidah Buaya",
+        "description": "Penjelasan produk"
+    }
+]

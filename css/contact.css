@@ -1,0 +1,171 @@
+/* Navbar */
+.navbar {
+    background-color: #14320f; /* Dark Brown */
+    padding: 1rem;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.logo {
+    height: 50px; /* Adjust the height to your desired size */
+    width: auto;  /* Maintain the aspect ratio */
+}
+
+.navbar .nav-link {
+    color: #f7f3e9; /* Light Beige */
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar .navbar-brand {
+    color: #cddc39; /* Muted Yellow */
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar .nav-link:hover {
+    color: #cddc39; /* Change link color on hover */
+}
+
+.navbar .navbar-brand:hover {
+    color: #f7f3e9; /* Change brand color on hover */
+}
+
+/* Hamburger Button (Navbar Toggler) */
+.navbar-light .navbar-toggler {
+    border-color: #f7f3e9; /* Light Beige for the border of the button */
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23f7f3e9' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); /* Light Beige for the lines */
+}
+
+/* On Scroll Navbar Effect */
+.navbar.scrolled {
+    background-color: #0f2510; /* Slightly darker on scroll */
+}
+
+body, h1, h2, h3, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.judul {
+    font-size: 3.6rem;
+    color: #161a66;
+}
+
+.phonenumber, .emailaddress, .insta, .location{
+    background-color: white;
+    box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+    -moz-box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+    padding: 1rem;
+    width: 27rem;
+    margin-bottom: 2rem;
+    height: 6.4rem;
+}
+
+.phoneimg, .emailimg, .instaimg, .locationimg {
+    float: left;
+    margin-right: 2rem;
+    width: 75px;
+    height: 75px;
+}
+
+.message button {
+    background-color: #08a963;
+    font-size: 1.2rem;
+    width: 100%;
+    height: 3rem;
+    color: white;
+    border-radius: 6px;
+    margin-top: 3rem;
+    border-color: white;
+}
+
+.message {
+    background-color: white;
+    box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+    -moz-box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+    padding: 1rem;
+    width: 100%;
+    color: #161a66;
+    margin-bottom: 2rem;
+    height: 31.6rem;
+}
+
+footer {
+    background-color: #14320f;
+    color: #ffffff; /* Set the text color for the footer */
+    padding: 20px;
+    text-align: center;
+}
+
+footer h5 {
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer .col-lg-3, footer .col-md-6 {
+    margin-bottom: 20px;
+}
+
+footer ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+footer ul li img {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+footer .text-center {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer .col-lg-3, footer .col-md-6.mb-4 {
+    text-align: left; /* Align text left */
+}
+
+footer .col-lg-3.mb-4 {
+    padding-left: 50px; /* Adjust padding to align the third column */
+}
+
+.square {
+    background-color: #36a450;
+    border-radius: 10px;
+}

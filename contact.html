@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artsari - Eco-Friendly Soaps</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/styles.css"> Ensure this path is correct -->
+    <link rel="stylesheet" href="css/contact.css"> <!-- Ensure this path is correct -->
+    <script src="script.js"></script>
+</head>
+<body style="background-color: #357529;">
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="advantages.html">Advantages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <form class="container" onsubmit="sendEmail(); reset(); return false;" autocomplete="off">
+        <div class="row">
+            <div class="col-sm-8 mb-4 mt-5">
+                <h1 class="judul text-light">Contact Information</h1>
+            </div>
+            <div class="col-sm-4 mt-5 text-end">
+                <img class="mb-2" src="images/logoHehe.png" height="100px">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="phonenumber square text-light">
+                    <!-- img source = https://www.flaticon.com/free-icon/telephone-of-old-design_15892?k=1672382652330&sign-up=email -->
+                    <img class="phoneimg" src="images/telephone-of-old-design.png">
+                    <h2>Nomor Telepon</h2>
+                    <small>+62812-6508-6113</small>
+                </div>
+                <div class="emailaddress square text-light">
+                    <!-- img source = https://www.flaticon.com/free-icon/email_1865034?term=email&page=1&position=90&origin=search&related_id=1865034 -->
+                    <img class="emailimg" src="images/email.png">
+                    <h2>Alamat Email</h2>
+                    <small>artsari@gmail.com</small>
+                </div>
+                <div class="insta square text-light">
+                    <!-- img source = https://www.flaticon.com/free-icon/instagram_3938036?term=instagram&page=1&position=53&origin=search&related_id=3938036 -->
+                    <img class="instaimg" src="images/instagram.png">
+                    <h2>Instagram</h2>
+                    <small>@artsari_natural</small>
+                </div>
+                <div class="location square text-light">
+                    <!-- img source = https://www.flaticon.com/free-icon/placeholder_819814?term=location&page=1&position=16&origin=search&related_id=819814 -->
+                    <img class="locationimg" src="images/placeholder.png">
+                    <h2>Lokasi</h2>
+                    <small>Medan, Indonesia</small>
+                </div>
+            </div>
+            <div class="col-1">
+
+            </div>
+            <div class="col-sm-7">
+                <div class="message square text-light">
+                    <h2>Kirim pesan kepada kami!</h2>
+                    <small>Pesan Anda akan terkirim langsung ke email kami</small>
+                    <div class="input-group mt-4">
+                        <span class="input-group-text">Nama</span>
+                        <input type="text" aria-label="First name" class="form-control" placeholder="Nama depan"
+                            id="first" required>
+                        <input type="text" aria-label="Last name" class="form-control" placeholder="Nama belakang" id="last"
+                            required>
+                    </div>
+                    <div class="input-group mt-4">
+                        <span class="input-group-text">Alamat email</span>
+                        <input type="email" aria-label="email" class="form-control" placeholder="name@example.com"
+                            id="emailadd" required>
+                    </div>
+                    <div class="input-group mt-4">
+                        <span class="input-group-text">Subject</span>
+                        <input type="text" aria-label="subject" class="form-control" id="subject" required>
+                    </div>
+                    <div class="input-group mt-4">
+                        <span class="input-group-text">Write your message</span>
+                        <input type="text" class="form-control typemessage" aria-label="message" id="message"
+                            required></input>
+                    </div>
+                    <button type="submit btn-secondary">Send</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 text-center text-light">
+                <div class="maps">
+                    <h1>Kunjungi kami!</h1>
+                    <small>Jl. Tri Dharma No.48, Padang Bulan, Kec. Medan Baru, Kota Medan, Sumatera Utara 20153
+                    </small>
+                    <div style="width: 100%;" class="my-5"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=artsari+(artsari)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps vehicle tracker</a></iframe></div>
+                </div>
+            </div>
+        </div>
+    </form>
+    
+
+<!-- Footer -->
+<footer style="background-color: #14320f;">
+    <div class="container p-4">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 mb-4">
+                <h5 class="mb-3">footer content</h5>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                    molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
+                    voluptatem veniam, est atque cumque eum delectus sint!
+                </p>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <h5 class="mb-3">Beli Produk Kami!</h5>
+                <ul class="list-unstyled mb-0 d-flex align-items-center">
+                    <li>
+                        <a href="https://id.shp.ee/k4GMzkj" style="display: flex; align-items: center;" target="_blank">
+                            <img src="images/shopee-removebg-preview.png" alt="Shopee">
+                            <span>Shopee</span>
+                        </a>
+                    </li>
+                    <li style="margin-left: 20px;">
+                        <a href="https://tokopedia.link/Tm5U8A98kMb" style="display: flex; align-items: center;" target="_blank">
+                            <img src="images/tokopedia-removebg-preview.png" alt="Tokopedia">
+                            <span>Tokopedia</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <h5 class="mb-1">opening hours</h5>
+                <br><td>Senin - Jumat</td><br>
+                <td>8.00 - 19.00</td>
+            </div>
+        </div>
+    </div>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2024 Copyright: Artsari
+    </div>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

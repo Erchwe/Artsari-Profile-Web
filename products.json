@@ -1,0 +1,22 @@
+[
+    {
+        "image": "images/produk/daun sirih.jfif",
+        "name": "Daun Sirih",
+        "description": "Penjelasan produk"
+    },
+    {
+        "image": "images/produk/kayu putih.jfif",
+        "name": "Kayu Putih",
+        "description": "Penjelasan produk"
+    },
+    {
+        "image": "images/produk/labu kuning.jfif",
+        "name": "Labu Kuning",
+        "description": "Penjelasan produk"
+    },
+    {
+        "image": "images/produk/serai wangi.jfif",
+        "name": "Serai Wangi",
+        "description": "Penjelasan produk"
+    }
+]
